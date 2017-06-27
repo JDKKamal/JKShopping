@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "363101991342",
+    "firebase_url": "https://jkshopping-ce510.firebaseio.com",
+    "project_id": "jkshopping-ce510",
+    "storage_bucket": "jkshopping-ce510.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363101991342:android:8d8662d8004b3dae",
+        "android_client_info": {
+          "package_name": "com.jdkgroup.jkshopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363101991342-9vtlmta368ps6g50v2doa57udsgrg45v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jdkgroup.jkshopping",
+            "certificate_hash": "fc74b4506bed604a48e854fc03587c59d057d365"
+          }
+        },
+        {
+          "client_id": "363101991342-49qilam6i83dh7da93b29tli2hq56vel.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2D-fl3tLzCa5HlQudXTLOX4x2e1PGuKw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363101991342-49qilam6i83dh7da93b29tli2hq56vel.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

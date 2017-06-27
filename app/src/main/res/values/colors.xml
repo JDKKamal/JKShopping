@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#19CC95</color>
+    <color name="colorPrimaryDark">#19CC95</color>
+    <color name="colorAccent">#19CC95</color>
+
+    <color name="colorCompanyTitle">#A0000000</color>
+
+    <color name="colorProgressbar">#F7A718</color>
+    <color name="colorProgressIndicatorBackground">#BBBBBB</color>
+    <color name="colorStroke">#056CAF</color>
+
+    <color name="colorButton">#19CC95</color>
+    <color name="colorButtonCompleteState">#19CC95</color>
+    <color name="colorSnackBarBG">#19CC95</color>
+
+    <color name="colorTextDefault">#8D8D8D</color>
+
+
+    <color name="colorTintImage">#8D8D8D</color>
+    <color name="colorTintPassword">#BBBBBB</color>
+    <color name="colorTransparent">#00000000</color>
+
+    <color name="colorFacebook">#264E96</color>
+    <color name="colorGoogle">#19CC95</color>
+
+    <item name="colorWhite" type="color">#FFFFFF</item>
+    <item name="colorBlack" type="color">#000000</item>
+    <item name="colorPurple" type="color">#FFAA66CC</item>
+    <item name="colorOrange" type="color">#FFFFBB33</item>
+    <item name="colorDarkblue" type="color">#FF0099CC</item>
+    <item name="colorDarkpurple" type="color">#FF9933CC</item>
+    <item name="colorDarkorange" type="color">#FFFF8800</item>
+</resources>

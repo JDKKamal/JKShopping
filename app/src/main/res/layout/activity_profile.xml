@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolBar"
+            layout="@layout/toolbar_drawer" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/header_cover_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_110dp"
+                    android:background="@color/colorAccent"
+                    android:scaleType="centerCrop" />
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/circleivProfileImage"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_below="@+id/header_cover_image"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="-60dp"
+                    android:elevation="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_logo" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/profile_layout"
+                    android:layout_margin="@dimen/_10dp"
+                    android:orientation="vertical">
+
+                    <!-- Username -->
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/tilUsername"
+                        style="@style/StyledTilAppEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_8dp">
+
+                        <android.support.v7.widget.AppCompatEditText
+                            android:id="@+id/appedtUsername"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/hint_username"
+                            android:inputType="textEmailAddress"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/_17dp" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <!-- Email -->
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/tilEmail"
+                        style="@style/StyledTilAppEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_8dp"
+                        android:layout_marginTop="@dimen/_8dp">
+
+                        <android.support.v7.widget.AppCompatEditText
+                            android:id="@+id/appedtEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/hint_email"
+                            android:inputType="textEmailAddress"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/_17dp" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <!-- ADDRESS -->
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/tnlAddress"
+                        style="@style/StyledTilAppEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_8dp"
+                        android:layout_marginTop="@dimen/_8dp">
+
+                        <android.support.v7.widget.AppCompatEditText
+                            android:id="@+id/appedtAddress"
+                            android:layout_width="match_parent"
+                            android:lines="4"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/hint_address"
+                            android:gravity="top|left"
+                            android:inputType="textMultiLine"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/_17dp" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <!-- Mobile No. -->
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/tnlMobileNo"
+                        style="@style/StyledTilAppEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_8dp"
+                        android:layout_marginTop="@dimen/_8dp">
+
+                        <android.support.v7.widget.AppCompatEditText
+                            android:id="@+id/appedtMobileNo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/hin_mobile_no"
+                            android:inputType="textEmailAddress"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/_17dp" />
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/profile_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/header_cover_image"
+                    android:background="@color/colorOrange"
+                    android:elevation="4dp"
+                    android:paddingBottom="@dimen/_10dp">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/appivImageUpload"
+                        android:layout_width="@dimen/_20dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginRight="@dimen/_10dp"
+                        android:src="@drawable/va_share" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/actProfileName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/_45dp"
+                        android:text=""
+                        android:textColor="#fff"
+                        android:textSize="@dimen/_15dp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

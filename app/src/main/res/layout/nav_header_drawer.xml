@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="@dimen/_10dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="@dimen/_15dp"
+        android:gravity="right"
+        android:textColor="@color/colorWhite"
+        android:text="Logout"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/_90dp"
+        android:layout_height="@dimen/_90dp"
+        android:padding="@dimen/_10dp"
+        app:srcCompat="@drawable/ic_username" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/apptvUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_20dp"
+        android:textColor="@color/colorWhite"
+        android:text="Kamlesh Lakhani"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/apptvAddress"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_20dp"
+        android:layout_height="wrap_content"
+        android:text="Address" />
+
+</LinearLayout>
